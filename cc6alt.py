@@ -33,17 +33,3 @@ for i in range(0,repetition,1):
     res=requests.post(urls,json.dumps(output))
     print(res.text)
     time.sleep(0.5)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
