@@ -10,10 +10,8 @@ def sol5():
     respsrvr=requests.get(urlinput)
     respsrvr=respsrvr.text
     listarg=listcontent(respsrvr)
-    final=berechnen(listarg)
+    final=calculate(listarg)
     final=int(final[0])
-
-
 
     output={'token':final}
     res=requests.post(urls,json.dumps(output))
@@ -36,7 +34,7 @@ def listcontent(respsrvr):
             
     return newlist
 
-def berechnen(listarg):
+def calculate(listarg):
     i=0
     while '+' in listarg or '-' in listarg or '*' in listarg or '/' in listarg:
 
@@ -87,29 +85,8 @@ def berechnen(listarg):
     return listarg
 
 
-
-
 repetition=10
 
 for i in range(0,repetition,1):
     sol5()
     time.sleep(0.5)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

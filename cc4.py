@@ -19,8 +19,6 @@ def sol4():
     print(res.text)
     
 
-
-
 def rotate(gegrotate,geglist):
     if gegrotate is 0:
         return geglist
@@ -33,9 +31,6 @@ def rotate(gegrotate,geglist):
             newlist.append(i)
         geglist=newlist
 
-
-
-    
     return geglist
 
 repetition=15
@@ -43,22 +38,3 @@ repetition=15
 for i in range(0,repetition,1):
     sol4()
     time.sleep(0.5)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

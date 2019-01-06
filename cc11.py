@@ -52,13 +52,3 @@ for i in range(0,repetition,1):
                 break
 
         time.sleep(0.5)
-
-
-
-
-
-
-
-        
-
-

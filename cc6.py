@@ -20,19 +20,8 @@ def sol6():
     print(res.text)
     
 
-
 repetition=5
 
 for i in range(0,repetition,1):
     sol6()
     time.sleep(0.5)
-
-
-
-
-
-
-
-
-
-

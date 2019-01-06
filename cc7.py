@@ -27,9 +27,6 @@ def sol7(counter):
     return counter+1
 
 
-
-
-
 def indexfinder(summands, total):
     for i in range(0,(len(summands)-1),1):
         ges=total-summands[i]

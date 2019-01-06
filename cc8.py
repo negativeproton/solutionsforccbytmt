@@ -13,7 +13,6 @@ def sol8():
     inp=inp.json()
     total=inp['k']
     summands=inp['list']
-
     
     data=solalgo4sum(summands,total)
 
@@ -32,42 +31,9 @@ def solalgo4sum(summands,total):
                     if result ==total:
                         return [i1,i2,i3,i4]
 
-def indexfinder(summands, total): #solution for 2sum
-    for i in range(0,(len(summands)-1),1):
-        ges=total-summands[i]
-        if ges in summands:
-            index1=i
-            index2=summands.index(ges)
-            return [index1,index2] 
-        
     
-repetition=10
+repetition=5
 
 for i in range(0,repetition,1):
     sol8()
-    time.sleep(0.5)
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    time.sleep(1)
