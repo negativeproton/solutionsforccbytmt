@@ -7,7 +7,7 @@ repetition=10
 urlc='https://cc.the-morpheus.de/challenges/11/' # url challenge 
 urls='https://cc.the-morpheus.de/solutions/11/'  # url solution
 
-for i in range(0,10,1):
+for i in range(0,repetition,1):
         valid=False
         counter=0   #counts open parentheses
         inp=requests.get(urlc) #input
