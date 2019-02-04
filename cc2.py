@@ -21,22 +21,3 @@ def sol2():
 for i in range(0,6,1):
     sol2()
     time.sleep(1)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
